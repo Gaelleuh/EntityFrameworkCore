@@ -10,7 +10,7 @@ namespace Exo01_Personnage.Models
         public int Armure { get; set; }
         public int Degats { get; set; }
         public DateTime DateCreation { get; set; }
-        public int NombrePersonneTues { get; set; }
+        public int NombrePersonneTues { get; set; } = 0;
 
 
         public override string ToString()
